@@ -810,16 +810,24 @@ line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor
 
 		
 		</style>
+		
+		
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-56290a3a elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no" data-id="56290a3a" data-element_type="section" id="secondsec" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4c1391e3" data-id="4c1391e3" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-a05564f elementor-widget elementor-widget-video" data-id="a05564f" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/www.youtube.com\/watch?v=C5wHWEzPrrs&amp;feature=shared&quot;,&quot;play_on_mobile&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;video_type&quot;:&quot;youtube&quot;}" data-widget_type="video.default">
-				<div class="elementor-widget-container">
+				
+				
+				<div class="elementor-widget-container" style="box-shadow:0 10px 20px red;">
 			<style>/*! elementor - v3.16.0 - 14-09-2023 */
 .elementor-widget-video .elementor-widget-container{overflow:hidden;transform:translateZ(0)}.elementor-widget-video .elementor-wrapper{aspect-ratio:var(--video-aspect-ratio)}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{height:100%;width:100%;display:flex;border:none;background-color:#000}@supports not (aspect-ratio:1/1){.elementor-widget-video .elementor-wrapper{position:relative;overflow:hidden;height:0;padding-bottom:calc(100% / var(--video-aspect-ratio))}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{position:absolute;top:0;right:0;bottom:0;left:0}}.elementor-widget-video .elementor-open-inline .elementor-custom-embed-image-overlay{position:absolute;top:0;right:0;bottom:0;left:0;background-size:cover;background-position:50%}.elementor-widget-video .elementor-custom-embed-image-overlay{cursor:pointer;text-align:center}.elementor-widget-video .elementor-custom-embed-image-overlay:hover .elementor-custom-embed-play i{opacity:1}.elementor-widget-video .elementor-custom-embed-image-overlay img{display:block;width:100%;aspect-ratio:var(--video-aspect-ratio);-o-object-fit:cover;object-fit:cover;-o-object-position:center center;object-position:center center}@supports not (aspect-ratio:1/1){.elementor-widget-video .elementor-custom-embed-image-overlay{position:relative;overflow:hidden;height:0;padding-bottom:calc(100% / var(--video-aspect-ratio))}.elementor-widget-video .elementor-custom-embed-image-overlay img{position:absolute;top:0;right:0;bottom:0;left:0}}.elementor-widget-video .e-hosted-video .elementor-video{-o-object-fit:cover;object-fit:cover}.e-con-inner>.elementor-widget-video,.e-con>.elementor-widget-video{width:var(--container-widget-width);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-wrapper elementor-open-inline">
-			<div class="elementor-video"></div>		</div>
+			<div class="elementor-video" style="box-shadow:0 10px 20px red;"></div>		</div>
 				</div>
+				
+				
+				
+				
 				</div>
 					</div>
 		</div>
@@ -845,6 +853,228 @@ line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor
 		</section>
 		
 		
+		
+		
+	<section class="elementor-section elementor-top-section elementor-element elementor-element-9907446 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no" data-id="9907446" data-element_type="section" data-settings="{&quot;_ha_eqh_enable&quot;:false}" id="gameRules">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-30d6af1" data-id="30d6af1" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-e5cf7ad elementor-widget elementor-widget-heading" data-id="e5cf7ad" data-element_type="widget" id="heading-partner" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+				</div>
+				<div class="elementor-element elementor-element-239e74e elementor-widget elementor-widget-text-editor" data-id="239e74e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							
+			<div class="parentDivSecThree">
+				<div class="childTwo">
+				<img src="imgone.png">
+					<h1>Join a league to win <br>pot and prizes</h1>
+						
+				</div>
+				<div class="childTwo">
+				<img src="imgtwo.png">
+					<h1>Fast & Secure<br> Withdrawals</h1>
+				</div>
+				<div class="childTwo">
+				<img src="imgthree.png">
+					<h1>24/7<br> Live Support
+</h1>
+				</div>
+			</div>	
+
+
+
+
+
+
+
+
+<style>
+				.parentDivSecThree{
+					display:flex;
+					justify-content:center;
+					align-items:center;
+					margin-top:80px;
+					
+				}
+				.parentDivSecThree .childTwo{
+					text-align:center;
+					cursor:pointer;
+					}
+				
+				.parentDivSecThree .childTwo h1{
+					font-size:22px;
+					color:#fff;
+					line-height:1.5;
+					}
+					.childTwo img{
+						width:175px;
+					}
+				
+				.parentDivSecThree .childTwo:nth-child(2){
+					margin:0 170px;
+				}
+				
+				
+				
+				
+				
+		@media only screen and (max-width: 480px){
+		
+				.parentDivSecThree{
+					margin-top:80px;
+					flex-direction:column;
+					
+				}
+				.parentDivSecThree .childTwo{
+					margin-bottom:40px;
+				}
+				.parentDivSecThree .childTwo h1{
+					font-size:22px;
+					line-height:1.5;
+					}
+					.childTwo img{
+						width:175px;
+					}
+				
+				.parentDivSecThree .childTwo:nth-child(2){
+					margin:0 0;
+				}
+				
+			
+		}
+			</style>				
+						
+							
+</div>				</div></div></div></div>
+		</section>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<section id="privacypolicydiv" class="elementor-section elementor-top-section elementor-element elementor-element-9907446 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no" data-id="9907446" data-element_type="section" data-settings="{&quot;_ha_eqh_enable&quot;:false}" id="gameRules">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-30d6af1" data-id="30d6af1" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-e5cf7ad elementor-widget elementor-widget-heading" data-id="e5cf7ad" data-element_type="widget" id="heading-partner" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+				</div>
+				<div class="elementor-element elementor-element-239e74e elementor-widget elementor-widget-text-editor" data-id="239e74e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							
+			<div class="parentDivSecTwo">
+				<div class="childOne">
+					<h1>Our Leagues</h1>
+					<p style="line-height:1.5;">Participating In Such A League Can Be A Thrilling Experience And Potentially A Way To Earn Substantial Money And Prizes. 
+					Make Sure To Research Different Fighters Leagues And Find One That Aligns With Your Goals And Skill Level.
+					Good Luck With Your Boxing Journey!
+				 </p>	
+				</div>
+				<div class="childOne">
+					<h1>Fight Schedule</h1>
+					<p style="line-height:1.5;">Exciting News! Mark Your Calendars Because We Have An Incredible Fight Night Coming Up. 
+					Two Titans Of The Fighting World Are Going Head-To-Head In A Clash Of The Titans 
+					That You Won't Want To Miss! Stay Tuned For More Details.</p>
+				</div>
+				<div class="childOne">
+					<h1>Leaderboard</h1>
+					<p>Hey There ,Fight Enthusiast! Want To Put Your Combat Knowledge To The Test And Win Some Exciting Prizes? 
+					Join Our Prediction Game And Become The Ultimate Fight Predictor! 🏆 Here's How It Works: Predict The Outcomes Of Upcoming 
+					Fights, Earn Points For Each Correct Prediction, 
+					And Climb The Leaderboard To Claim Your Spot Among The Top Predictors. The Higher You Climb, The Bigger The Rewards!</p>
+				</div>
+			</div>				
+							
+							
+							
+			<style>
+			#privacypolicydiv{
+				background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('https://fantasymmadness.com/wp-content/uploads/2023/08/banner.jpg');
+
+				margin-top:40px;
+				padding:70px 0;
+			}
+				.parentDivSecTwo{
+					width:1200px;
+					display:flex;
+					justify-content:center;
+					align-items:center;
+					
+				}
+				.parentDivSecTwo .childOne{
+					padding:10px;
+					background:#000;
+					border:3px solid #d61011;
+					 box-shadow: 7px 7px 0 #d61011;
+					margin:0 20px;
+					width:600px;
+					height:300px;
+					text-align:center;
+					cursor:pointer;
+					transition: box-shadow 0.3s ease-in-out;
+				}
+				.parentDivSecTwo .childOne:hover{
+	  box-shadow: none;
+	}
+				.parentDivSecTwo .childOne h1{
+					font-size:27px;
+					color:#fff;
+					
+					font-family:Agency FB;
+				}
+				.parentDivSecTwo .childOne p{
+					color:#fff;
+					font-size:19px;
+					line-height:1.4;
+					font-family:Agency FB;
+					
+				}
+				
+		@media only screen and (max-width: 480px){
+		
+		#privacypolicydiv{
+			
+				margin-top:0px;
+				padding:30px 0;
+			}
+				.parentDivSecTwo{
+					width:100%;
+					flex-direction:column;
+
+					
+				}
+				.parentDivSecTwo .childOne{
+					padding:10px;
+					margin:15px 0;
+					width:300px;
+					height:300px;
+					}
+				
+				.parentDivSecTwo .childOne h1{
+					font-size:20px;
+				}
+				.parentDivSecTwo .childOne p{
+					font-size:16px;
+					line-height:1.4;
+					
+				}
+			
+			
+		}
+			</style>				
+							
+</div>				</div></div></div></div>
+		</section>
 		
 		
 		
@@ -985,7 +1215,7 @@ Affiliate</h2>		</div>
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-e285534 elementor-widget elementor-widget-image" data-id="e285534" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="1400" height="891" src="imgfour.png" class="attachment-full size-full wp-image-812" >
+															<img loading="lazy" decoding="async" width="1400" height="891" src="imgfour.png" class="attachment-full size-full wp-image-812" alt="" srcset="https://fantasymmadness.com/wp-content/uploads/2023/09/kickboxing-classes-bg-01-1.jpg 1400w, https://fantasymmadness.com/wp-content/uploads/2023/09/kickboxing-classes-bg-01-1-300x191.jpg 300w, https://fantasymmadness.com/wp-content/uploads/2023/09/kickboxing-classes-bg-01-1-1024x652.jpg 1024w, https://fantasymmadness.com/wp-content/uploads/2023/09/kickboxing-classes-bg-01-1-768x489.jpg 768w, https://fantasymmadness.com/wp-content/uploads/2023/09/kickboxing-classes-bg-01-1-600x382.jpg 600w" sizes="(max-width: 1400px) 100vw, 1400px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-536711f full-width elementor-widget elementor-widget-ha-creative-button happy-addon ha-creative-button" data-id="536711f" data-element_type="widget" id="btn2" data-widget_type="ha-creative-button.default">
 				<div class="elementor-widget-container">
@@ -999,9 +1229,8 @@ Affiliate</h2>		</div>
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-b5749bb elementor-widget elementor-widget-image" data-id="b5749bb" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="1310" height="873" src="imgfive.png"  class="attachment-full size-full wp-image-812">
-															
-															</div>
+															<img loading="lazy" decoding="async" width="1310" height="873" src="https://fantasymmadness.com/wp-content/uploads/2023/09/27a129b22df9186da9202063ce1e36ea.jpg" class="attachment-full size-full wp-image-811" alt="" srcset="https://fantasymmadness.com/wp-content/uploads/2023/09/27a129b22df9186da9202063ce1e36ea.jpg 1310w, https://fantasymmadness.com/wp-content/uploads/2023/09/27a129b22df9186da9202063ce1e36ea-300x200.jpg 300w, https://fantasymmadness.com/wp-content/uploads/2023/09/27a129b22df9186da9202063ce1e36ea-1024x682.jpg 1024w, https://fantasymmadness.com/wp-content/uploads/2023/09/27a129b22df9186da9202063ce1e36ea-768x512.jpg 768w, https://fantasymmadness.com/wp-content/uploads/2023/09/27a129b22df9186da9202063ce1e36ea-600x400.jpg 600w" sizes="(max-width: 1310px) 100vw, 1310px" />															</div>
+				</div>
 				<div class="elementor-element elementor-element-3f4a98d elementor-align-left elementor-widget elementor-widget-shopengine-archive-products" data-id="3f4a98d" data-element_type="widget" id="buy-now-btn" data-widget_type="shopengine-archive-products.default">
 				<div class="elementor-widget-container">
 			<div class="shopengine shopengine-widget">	
@@ -1060,118 +1289,6 @@ Affiliate</h2>		</div>
 		
 		
 		
-		
-		
-		<section id="privacypolicydiv" class="elementor-section elementor-top-section elementor-element elementor-element-9907446 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no" data-id="9907446" data-element_type="section" data-settings="{&quot;_ha_eqh_enable&quot;:false}" id="gameRules">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-30d6af1" data-id="30d6af1" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-e5cf7ad elementor-widget elementor-widget-heading" data-id="e5cf7ad" data-element_type="widget" id="heading-partner" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-				</div>
-				<div class="elementor-element elementor-element-239e74e elementor-widget elementor-widget-text-editor" data-id="239e74e" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							
-			<div class="parentDivSecTwo">
-				<div class="childOne">
-					<h1>Our Leagues</h1>
-					<p style="line-height:1.6;">Participating In Such A League Can Be A Thrilling Experience And Potentially A Way To Earn Substantial Money And Prizes. 
-					Make Sure To Research Different Fighters Leagues And Find One That Aligns With Your Goals And Skill Level.
-					Good Luck With Your Boxing Journey!
-				 </p>	
-				</div>
-				<div class="childOne">
-					<h1>Fight Schedule</h1>
-					<p style="line-height:1.6;">Exciting News! Mark Your Calendars Because We Have An Incredible Fight Night Coming Up. 
-					Two Titans Of The Fighting World Are Going Head-To-Head In A Clash Of The Titans 
-					That You Won't Want To Miss! Stay Tuned For More Details.</p>
-				</div>
-				<div class="childOne">
-					<h1>Leaderboard</h1>
-					<p>Hey There ,Fight Enthusiast! Want To Put Your Combat Knowledge To The Test And Win Some Exciting Prizes? 
-					Join Our Prediction Game And Become The Ultimate Fight Predictor! 🏆 Here's How It Works: Predict The Outcomes Of Upcoming 
-					Fights, Earn Points For Each Correct Prediction, 
-					And Climb The Leaderboard To Claim Your Spot Among The Top Predictors. The Higher You Climb, The Bigger The Rewards!</p>
-				</div>
-			</div>				
-							
-							
-							
-			<style>
-			#privacypolicydiv{
-				background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('https://fantasymmadness.com/wp-content/uploads/2023/08/banner.jpg');
-
-				margin-top:120px;
-				padding:70px 0;
-			}
-				.parentDivSecTwo{
-					width:1200px;
-					display:flex;
-					justify-content:center;
-					align-items:center;
-					
-				}
-				.parentDivSecTwo .childOne{
-					padding:10px;
-					background:#000;
-					border:3px solid #d61011;
-					 box-shadow: 7px 7px 0 #d61011;
-					margin:0 20px;
-					width:600px;
-					height:300px;
-					text-align:center;
-					cursor:pointer;
-					transition: box-shadow 0.3s ease-in-out;
-				}
-				.parentDivSecTwo .childOne:hover{
-	  box-shadow: none;
-	}
-				.parentDivSecTwo .childOne h1{
-					font-size:20px;
-					color:#fff;
-				}
-				.parentDivSecTwo .childOne p{
-					color:#fff;
-					font-size:16px;
-					line-height:1.4;
-					
-				}
-				
-		@media only screen and (max-width: 480px){
-		
-		#privacypolicydiv{
-			
-				margin-top:120px;
-				padding:70px 0;
-			}
-				.parentDivSecTwo{
-					width:100%;
-					flex-direction:column;
-
-					
-				}
-				.parentDivSecTwo .childOne{
-					padding:10px;
-					margin:15px 0;
-					width:300px;
-					height:400px;
-					}
-				
-				.parentDivSecTwo .childOne h1{
-					font-size:20px;
-				}
-				.parentDivSecTwo .childOne p{
-					font-size:16px;
-					line-height:1.4;
-					
-				}
-			
-			
-		}
-			</style>				
-							
-</div>				</div></div></div></div>
-		</section>
 		
 			<!--	<section class="elementor-section elementor-top-section elementor-element elementor-element-73c3e059 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no" data-id="73c3e059" data-element_type="section" id="blogsec" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
 						<div class="elementor-container elementor-column-gap-default">

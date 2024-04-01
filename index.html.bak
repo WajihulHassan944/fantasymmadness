@@ -14,52 +14,6 @@
 
   
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-    <script type="text/javascript">
-        window._wpemojiSettings = {
-            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
-            "ext": ".png",
-            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
-            "svgExt": ".svg",
-            "source": {
-                "concatemoji": "http:\/\/thursdaynightfights.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=f4209d97e7af7b7460363463fa1c240c"
-            }
-        };
-        /*! This file is auto-generated */
-        ! function(e, a, t) {
-            var n, r, o, i = a.createElement("canvas"),
-                p = i.getContext && i.getContext("2d");
-
-            function s(e, t) {
-                p.clearRect(0, 0, i.width, i.height), p.fillText(e, 0, 0);
-                e = i.toDataURL();
-                return p.clearRect(0, 0, i.width, i.height), p.fillText(t, 0, 0), e === i.toDataURL()
-            }
-
-            function c(e) {
-                var t = a.createElement("script");
-                t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
-            }
-            for (o = Array("flag", "emoji"), t.supports = {
-                    everything: !0,
-                    everythingExceptFlag: !0
-                }, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
-                if (p && p.fillText) switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
-                    case "flag":
-                        return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !s("\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");
-                    case "emoji":
-                        return !s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff", "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")
-                }
-                return !1
-            }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
-            t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function() {
-                t.DOMReady = !0
-            }, t.supports.everything || (n = function() {
-                t.readyCallback()
-            }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
-                "complete" === a.readyState && t.readyCallback()
-            })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji)))
-        }(window, document, window._wpemojiSettings);
-    </script>
     <style type="text/css">
         img.wp-smiley,
         img.emoji {
@@ -74,9 +28,9 @@
             padding: 0 !important;
         }
     </style>
-    <link rel='stylesheet' id='wp-block-library-css' href='http://thursdaynightfights.com/wp-includes/css/dist/block-library/style.min.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
-    <link rel='stylesheet' id='ife-facebook-events-block-style2-css' href='http://thursdaynightfights.com/wp-content/plugins/import-facebook-events/assets/css/grid-style2.css?ver=1.7.2' type='text/css' media='all' />
-    <link rel='stylesheet' id='classic-theme-styles-css' href='http://thursdaynightfights.com/wp-includes/css/classic-themes.min.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.min.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
+    <link rel='stylesheet' id='ife-facebook-events-block-style2-css' href='wp-content/plugins/import-facebook-events/assets/css/grid-style2.css?ver=1.7.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='classic-theme-styles-css' href='wp-includes/css/classic-themes.min.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
     <style id='global-styles-inline-css' type='text/css'>
         body {
             --wp--preset--color--black: #000000;
@@ -415,30 +369,30 @@
             line-height: 1.6;
         }
     </style>
-    <link rel='stylesheet' id='contact-form-7-css' href='http://thursdaynightfights.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.5.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='font-awesome-css' href='http://thursdaynightfights.com/wp-content/plugins/import-facebook-events/assets/css/font-awesome.min.css?ver=1.7.2' type='text/css' media='all' />
-    <link rel='stylesheet' id='import-facebook-events-front-css' href='http://thursdaynightfights.com/wp-content/plugins/import-facebook-events/assets/css/import-facebook-events.css?ver=1.7.2' type='text/css' media='all' />
-    <link rel='stylesheet' id='import-facebook-events-front-style2-css' href='http://thursdaynightfights.com/wp-content/plugins/import-facebook-events/assets/css/grid-style2.css?ver=1.7.2' type='text/css' media='all' />
-    <link rel='stylesheet' id='mediaelement-css' href='http://thursdaynightfights.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' type='text/css' media='all' />
-    <link rel='stylesheet' id='wp-mediaelement-css' href='http://thursdaynightfights.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
-    <link rel='stylesheet' id='bridge-default-style-css' href='http://thursdaynightfights.com/wp-content/themes/bridge/style.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
-    <link rel='stylesheet' id='bridge-qode-font_awesome-css' href='http://thursdaynightfights.com/wp-content/themes/bridge/css/font-awesome/css/font-awesome.min.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
-    <link rel='stylesheet' id='bridge-qode-font_elegant-css' href='http://thursdaynightfights.com/wp-content/themes/bridge/css/elegant-icons/style.min.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
-    <link rel='stylesheet' id='bridge-qode-linea_icons-css' href='http://thursdaynightfights.com/wp-content/themes/bridge/css/linea-icons/style.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
-    <link rel='stylesheet' id='bridge-qode-dripicons-css' href='http://thursdaynightfights.com/wp-content/themes/bridge/css/dripicons/dripicons.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
-    <link rel='stylesheet' id='bridge-qode-kiko-css' href='http://thursdaynightfights.com/wp-content/themes/bridge/css/kiko/kiko-all.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
-    <link rel='stylesheet' id='bridge-qode-font_awesome_5-css' href='http://thursdaynightfights.com/wp-content/themes/bridge/css/font-awesome-5/css/font-awesome-5.min.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
-    <link rel='stylesheet' id='bridge-stylesheet-css' href='http://thursdaynightfights.com/wp-content/themes/bridge/css/stylesheet.min.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
+    <link rel='stylesheet' id='contact-form-7-css' href='wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.5.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-awesome-css' href='wp-content/plugins/import-facebook-events/assets/css/font-awesome.min.css?ver=1.7.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='import-facebook-events-front-css' href='wp-content/plugins/import-facebook-events/assets/css/import-facebook-events.css?ver=1.7.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='import-facebook-events-front-style2-css' href='wp-content/plugins/import-facebook-events/assets/css/grid-style2.css?ver=1.7.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='mediaelement-css' href='wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-mediaelement-css' href='wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
+    <link rel='stylesheet' id='bridge-default-style-css' href='wp-content/themes/bridge/style.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
+    <link rel='stylesheet' id='bridge-qode-font_awesome-css' href='wp-content/themes/bridge/css/font-awesome/css/font-awesome.min.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
+    <link rel='stylesheet' id='bridge-qode-font_elegant-css' href='wp-content/themes/bridge/css/elegant-icons/style.min.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
+    <link rel='stylesheet' id='bridge-qode-linea_icons-css' href='wp-content/themes/bridge/css/linea-icons/style.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
+    <link rel='stylesheet' id='bridge-qode-dripicons-css' href='wp-content/themes/bridge/css/dripicons/dripicons.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
+    <link rel='stylesheet' id='bridge-qode-kiko-css' href='wp-content/themes/bridge/css/kiko/kiko-all.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
+    <link rel='stylesheet' id='bridge-qode-font_awesome_5-css' href='wp-content/themes/bridge/css/font-awesome-5/css/font-awesome-5.min.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
+    <link rel='stylesheet' id='bridge-stylesheet-css' href='wp-content/themes/bridge/css/stylesheet.min.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
     <style id='bridge-stylesheet-inline-css' type='text/css'>
         .page-id-5.disabled_footer_top .footer_top_holder,
         .page-id-5.disabled_footer_bottom .footer_bottom_holder {
             display: none;
         }
     </style>
-    <link rel='stylesheet' id='bridge-print-css' href='http://thursdaynightfights.com/wp-content/themes/bridge/css/print.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
-    <link rel='stylesheet' id='bridge-style-dynamic-css' href='http://thursdaynightfights.com/wp-content/themes/bridge/css/style_dynamic.css?ver=1663593479' type='text/css' media='all' />
-    <link rel='stylesheet' id='bridge-responsive-css' href='http://thursdaynightfights.com/wp-content/themes/bridge/css/responsive.min.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
-    <link rel='stylesheet' id='bridge-style-dynamic-responsive-css' href='http://thursdaynightfights.com/wp-content/themes/bridge/css/style_dynamic_responsive.css?ver=1663593479' type='text/css' media='all' />
+    <link rel='stylesheet' id='bridge-print-css' href='wp-content/themes/bridge/css/print.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
+    <link rel='stylesheet' id='bridge-style-dynamic-css' href='wp-content/themes/bridge/css/style_dynamic.css?ver=1663593479' type='text/css' media='all' />
+    <link rel='stylesheet' id='bridge-responsive-css' href='wp-content/themes/bridge/css/responsive.min.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
+    <link rel='stylesheet' id='bridge-style-dynamic-responsive-css' href='wp-content/themes/bridge/css/style_dynamic_responsive.css?ver=1663593479' type='text/css' media='all' />
     <style id='bridge-style-dynamic-responsive-inline-css' type='text/css'>
         .q_icon_with_title.tiny.circle.right h3.icon_title,
         .q_icon_with_title.tiny.circle h3.icon_title {
@@ -612,69 +566,16 @@
             }
         }
     </style>
-    <link rel='stylesheet' id='js_composer_front-css' href='http://thursdaynightfights.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.9.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='js_composer_front-css' href='wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.9.0' type='text/css' media='all' />
     <link rel='stylesheet' id='bridge-style-handle-google-fonts-css' href='http://fonts.googleapis.com/css?family=Raleway%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C300italic%2C400italic%2C700italic%7CBungee%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C300italic%2C400italic%2C700italic%7CRoboto%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C300italic%2C400italic%2C700italic&#038;subset=latin%2Clatin-ext&#038;ver=1.0.0'
         type='text/css' media='all' />
-    <link rel='stylesheet' id='bridge-core-dashboard-style-css' href='http://thursdaynightfights.com/wp-content/plugins/bridge-core/modules/core-dashboard/assets/css/core-dashboard.min.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all'
+    <link rel='stylesheet' id='bridge-core-dashboard-style-css' href='wp-content/plugins/bridge-core/modules/core-dashboard/assets/css/core-dashboard.min.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all'
     />
-    <link rel='stylesheet' id='childstyle-css' href='http://thursdaynightfights.com/wp-content/themes/bridge-child/style.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
-    <script type='text/javascript' src='http://thursdaynightfights.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.4' id='jquery-core-js'></script>
-    <script type='text/javascript' src='http://thursdaynightfights.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0' id='jquery-migrate-js'></script>
-    <link rel="https://api.w.org/" href="http://thursdaynightfights.com/wp-json/" />
-    <link rel="alternate" type="application/json" href="http://thursdaynightfights.com/wp-json/wp/v2/pages/5" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://thursdaynightfights.com/xmlrpc.php?rsd" />
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://thursdaynightfights.com/wp-includes/wlwmanifest.xml" />
-
-    <link rel='shortlink' href='http://thursdaynightfights.com/' />
-    <link rel="alternate" type="application/json+oembed" href="http://thursdaynightfights.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fthursdaynightfights.com%2F" />
-    <link rel="alternate" type="text/xml+oembed" href="http://thursdaynightfights.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fthursdaynightfights.com%2F&#038;format=xml" />
-    <script type="text/javascript">
-        (function(url) {
-            if (/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)) {
-                return;
-            }
-            var addEvent = function(evt, handler) {
-                if (window.addEventListener) {
-                    document.addEventListener(evt, handler, false);
-                } else if (window.attachEvent) {
-                    document.attachEvent('on' + evt, handler);
-                }
-            };
-            var removeEvent = function(evt, handler) {
-                if (window.removeEventListener) {
-                    document.removeEventListener(evt, handler, false);
-                } else if (window.detachEvent) {
-                    document.detachEvent('on' + evt, handler);
-                }
-            };
-            var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
-            var logHuman = function() {
-                if (window.wfLogHumanRan) {
-                    return;
-                }
-                window.wfLogHumanRan = true;
-                var wfscr = document.createElement('script');
-                wfscr.type = 'text/javascript';
-                wfscr.async = true;
-                wfscr.src = url + '&r=' + Math.random();
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(wfscr);
-                for (var i = 0; i < evts.length; i++) {
-                    removeEvent(evts[i], logHuman);
-                }
-            };
-            for (var i = 0; i < evts.length; i++) {
-                addEvent(evts[i], logHuman);
-            }
-        })('//thursdaynightfights.com/?wordfence_lh=1&hid=85CB59D4907941593B253671212A9999');
-    </script>
-    <style type="text/css">
-        .recentcomments a {
-            display: inline !important;
-            padding: 0 !important;
-            margin: 0 !important;
-        }
-    </style>
-    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+    <link rel='stylesheet' id='childstyle-css' href='wp-content/themes/bridge-child/style.css?ver=f4209d97e7af7b7460363463fa1c240c' type='text/css' media='all' />
+    <script type='text/javascript' src='wp-includes/js/jquery/jquery.min.js?ver=3.6.4' id='jquery-core-js'></script>
+    <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0' id='jquery-migrate-js'></script>
+    
+	
     <style type="text/css" data-type="vc_custom-css">
         @media only screen and (max-width: 1024px) {
             .carousel.advanced_responsiveness .carousel-control {
@@ -1716,7 +1617,7 @@
                     <script type='text/javascript' src='wp-content/themes/bridge/js/plugins/qode-like.min.js?ver=f4209d97e7af7b7460363463fa1c240c' id='qode-like-js'></script>
                     <script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LcVGKsaAAAAAETpCGCeP8WbcZ3H8PfGMxKc7iDZ&#038;ver=3.0' id='google-recaptcha-js'></script>
                     <script type='text/javascript' src='wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.7.5.1' id='wpcf7-recaptcha-js'></script>
-                    <script defer type='text/javascript' src='http://thursdaynightfights.com/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1681910146' id='akismet-frontend-js'></script>
+                    <script defer type='text/javascript' src='wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1681910146' id='akismet-frontend-js'></script>
 </body>
 
 </html>

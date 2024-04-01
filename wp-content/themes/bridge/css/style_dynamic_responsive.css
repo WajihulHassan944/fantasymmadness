@@ -1,0 +1,45 @@
+		@media only screen and (max-width: 1000px) {
+		    .header_bottom {
+		        background-color: #ffffff;
+		    }
+		    .header_bottom,
+		    nav.mobile_menu {
+		        background-color: #000000 !important;
+		    }
+		}
+
+		@media only screen and (min-width: 480px) and (max-width: 768px) {
+		    section.parallax_section_holder {
+		        height: auto !important;
+		        min-height: 400px;
+		    }
+		}
+
+		@media only screen and (max-width: 768px) {}
+
+		@media only screen and (max-width: 600px) {
+		    h2,
+		    h2 a,
+		    body.qode-overridden-elementors-fonts .elementor-widget-heading h2.elementor-heading-title {
+		        font-size: 41px;
+		        line-height: 44px;
+		    }
+		    h3,
+		    h3 a,
+		    body.qode-overridden-elementors-fonts .elementor-widget-heading h3.elementor-heading-title {
+		        font-size: 24px;
+		    }
+		    body,
+		    p,
+		    .elementor-widget-heading p.elementor-heading-title {
+		        font-size: 17px;
+		        line-height: 28px;
+		    }
+		}
+
+		@media only screen and (max-width: 480px) {
+		    section.parallax_section_holder {
+		        height: auto !important;
+		        min-height: 400px;
+		    }
+		}

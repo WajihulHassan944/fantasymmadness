@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fantasy MMADNESS — Fighter Affiliates</title>
+<style>
+body{margin:0;background:#090909;color:#fff;font-family:Arial,sans-serif}.wrap{max-width:1100px;margin:auto;padding:28px}.card{background:#151515;border:1px solid #292929;border-radius:14px;padding:22px;margin-bottom:18px}h1{margin-top:0}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}@media(max-width:700px){.grid{grid-template-columns:1fr}}label{font-size:13px;color:#aaa;display:block;margin-bottom:6px}input,textarea{width:100%;box-sizing:border-box;background:#0e0e0e;border:1px solid #333;color:#fff;border-radius:8px;padding:11px}textarea{min-height:90px}button{background:#e51d2a;color:#fff;border:0;border-radius:8px;padding:12px 18px;font-weight:700;cursor:pointer}.muted{color:#aaa}.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.affiliate{border-top:1px solid #292929;padding:16px 0}.link{word-break:break-all;color:#55aaff}.success{color:#55dd88}.error{color:#ff6670}pre{white-space:pre-wrap;background:#0e0e0e;padding:12px;border-radius:8px}
+</style>
+</head>
+<body><div class="wrap">
+<div class="card"><h1>FANTASY MMADNESS Fighter Affiliates</h1><p class="muted">Turn any fighter into an affiliate and generate their personalized Instagram promotion.</p>
+<div class="grid">
+<div><label>Backend API URL</label><input id="api" placeholder="https://your-fantasy-mmadness-server.vercel.app"></div>
+<div><label>Affiliate Admin Key</label><input id="key" type="password" placeholder="AFFILIATE_ADMIN_KEY"></div>
+<div><label>Fighter Name</label><input id="name" placeholder="Fighter name"></div>
+<div><label>Instagram Handle</label><input id="instagram" placeholder="@fighter"></div>
+<div><label>Fighter Image URL</label><input id="image" placeholder="https://..."></div>
+<div><label>Fight Name</label><input id="fight" placeholder="Fighter vs Fighter"></div>
+<div><label>Fight ID</label><input id="fightId" placeholder="optional fight ID"></div>
+<div><label>Custom Promo Slug</label><input id="slug" placeholder="fighter-name"></div>
+</div><br><label>Hashtags (comma separated — fighter hashtag included automatically if left blank)</label><input id="hashtags" placeholder="#FighterName, #FantasyMMADNESS, #MMA">
+<br><br><button onclick="createAffiliate()">CREATE / UPDATE AFFILIATE</button><span id="status" style="margin-left:12px"></span>
+</div>
+<div class="card"><h2>Affiliate Ready</h2><div id="result" class="muted">Create an affiliate above.</div></div>
+<div class="card"><h2>Current Affiliates</h2><button onclick="loadAffiliates()">REFRESH</button><div id="list"></div></div>
+</div>
+<script>
+const $=id=>document.getElementById(id);
+function apiBase(){return $('api').value.trim().replace(/\/$/,'')}
+async function createAffiliate(){
+ const status=$('status');status.textContent='Saving...';status.className='';
+ try{
+  const tags=$('hashtags').value.split(',').map(x=>x.trim()).filter(Boolean);
+  const r=await fetch(apiBase()+'/api/admin/affiliates',{method:'POST',headers:{'Content-Type':'application/json','x-affiliate-admin-key':$('key').value},body:JSON.stringify({fighterName:$('name').value,instagramHandle:$('instagram').value,imageUrl:$('image').value,fightName:$('fight').value,fightId:$('fightId').value,promoSlug:$('slug').value,hashtags:tags})});
+  const d=await r.json();if(!r.ok)throw new Error(d.message||'Request failed');
+  status.textContent='Saved';status.className='success';renderResult(d.affiliate,d.promoUrl);
+ }catch(e){status.textContent=e.message;status.className='error'}
+}
+function renderResult(a,url){$('result').innerHTML='<p><b>'+a.fighterName+'</b> is ready.</p><p>Promo link:<br><span class="link">'+location.origin+url+'</span></p><p>Instagram caption:</p><pre>'+a.promoCaption+'</pre>'}
+async function loadAffiliates(){
+ try{const r=await fetch(apiBase()+'/api/admin/affiliates',{headers:{'x-affiliate-admin-key':$('key').value}});const d=await r.json();if(!r.ok)throw new Error(d.message);$('list').innerHTML=d.affiliates.map(a=>'<div class="affiliate"><b>'+a.fighterName+'</b> — '+(a.active?'ACTIVE':'OFF')+'<br><span class="muted">'+a.clicks+' clicks</span><br><span class="link">'+a.promoSlug+'</span><br><button onclick="toggle(\''+a._id+'\','+(!a.active)+')">'+(a.active?'DEACTIVATE':'ACTIVATE')+'</button></div>').join('')||'<p class="muted">No affiliates yet.</p>'}catch(e){$('list').innerHTML='<p class="error">'+e.message+'</p>'}
+}
+async function toggle(id,active){await fetch(apiBase()+'/api/admin/affiliates/'+id,{method:'PATCH',headers:{'Content-Type':'application/json','x-affiliate-admin-key':$('key').value},body:JSON.stringify({active})});loadAffiliates()}
+</script></body></html>

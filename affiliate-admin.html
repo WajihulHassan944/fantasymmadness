@@ -27,18 +27,27 @@ body{margin:0;background:#090909;color:#fff;font-family:Arial,sans-serif}.wrap{m
 <script>
 const $=id=>document.getElementById(id);
 function apiBase(){return $('api').value.trim().replace(/\/$/,'')}
+function publicPromoUrl(a){
+  const api=apiBase();
+  return location.origin+'/affiliate.html?slug='+encodeURIComponent(a.promoSlug)+(api?'&api='+encodeURIComponent(api):'');
+}
 async function createAffiliate(){
  const status=$('status');status.textContent='Saving...';status.className='';
  try{
   const tags=$('hashtags').value.split(',').map(x=>x.trim()).filter(Boolean);
   const r=await fetch(apiBase()+'/api/admin/affiliates',{method:'POST',headers:{'Content-Type':'application/json','x-affiliate-admin-key':$('key').value},body:JSON.stringify({fighterName:$('name').value,instagramHandle:$('instagram').value,imageUrl:$('image').value,fightName:$('fight').value,fightId:$('fightId').value,promoSlug:$('slug').value,hashtags:tags})});
   const d=await r.json();if(!r.ok)throw new Error(d.message||'Request failed');
-  status.textContent='Saved';status.className='success';renderResult(d.affiliate,d.promoUrl);
+  status.textContent='Saved';status.className='success';renderResult(d.affiliate,publicPromoUrl(d.affiliate));
  }catch(e){status.textContent=e.message;status.className='error'}
 }
-function renderResult(a,url){$('result').innerHTML='<p><b>'+a.fighterName+'</b> is ready.</p><p>Promo link:<br><span class="link">'+location.origin+url+'</span></p><p>Instagram caption:</p><pre>'+a.promoCaption+'</pre>'}
+function renderResult(a,url){
+  let caption=a.promoCaption||'';
+  const relative='/affiliate/'+a.promoSlug;
+  caption=caption.split(relative).join(url);
+  $('result').innerHTML='<p><b>'+a.fighterName+'</b> is ready.</p><p>Promo link:<br><span class="link">'+url+'</span></p><p>Instagram caption:</p><pre>'+caption+'</pre>';
+}
 async function loadAffiliates(){
- try{const r=await fetch(apiBase()+'/api/admin/affiliates',{headers:{'x-affiliate-admin-key':$('key').value}});const d=await r.json();if(!r.ok)throw new Error(d.message);$('list').innerHTML=d.affiliates.map(a=>'<div class="affiliate"><b>'+a.fighterName+'</b> — '+(a.active?'ACTIVE':'OFF')+'<br><span class="muted">'+a.clicks+' clicks</span><br><span class="link">'+a.promoSlug+'</span><br><button onclick="toggle(\''+a._id+'\','+(!a.active)+')">'+(a.active?'DEACTIVATE':'ACTIVATE')+'</button></div>').join('')||'<p class="muted">No affiliates yet.</p>'}catch(e){$('list').innerHTML='<p class="error">'+e.message+'</p>'}
+ try{const r=await fetch(apiBase()+'/api/admin/affiliates',{headers:{'x-affiliate-admin-key':$('key').value}});const d=await r.json();if(!r.ok)throw new Error(d.message);$('list').innerHTML=d.affiliates.map(a=>'<div class="affiliate"><b>'+a.fighterName+'</b> — '+(a.active?'ACTIVE':'OFF')+'<br><span class="muted">'+a.clicks+' clicks</span><br><span class="link">'+publicPromoUrl(a)+'</span><br><button onclick="toggle(\''+a._id+'\','+(!a.active)+')">'+(a.active?'DEACTIVATE':'ACTIVATE')+'</button></div>').join('')||'<p class="muted">No affiliates yet.</p>'}catch(e){$('list').innerHTML='<p class="error">'+e.message+'</p>'}
 }
 async function toggle(id,active){await fetch(apiBase()+'/api/admin/affiliates/'+id,{method:'PATCH',headers:{'Content-Type':'application/json','x-affiliate-admin-key':$('key').value},body:JSON.stringify({active})});loadAffiliates()}
 </script></body></html>
